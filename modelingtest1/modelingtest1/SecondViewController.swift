@@ -51,13 +51,19 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     
-    //UITableViewDelegate
+    //UITableViewDelete
     
     func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!){
         
         if(editingStyle == UITableViewCellEditingStyle.Delete){
-            taskMgr.tasks.removeAtIndex(indexPath.row)
+            
+            if let tv=tableView
+                {
+            
+            taskMgr.tasks.removeAtIndex(indexPath!.row)
+            tv.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
             tblTasks.reloadData();
+                }
         }
         
     }
