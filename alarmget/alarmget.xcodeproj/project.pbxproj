@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2133BE5F1A408E7E0091F257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BE5E1A408E7E0091F257 /* AppDelegate.swift */; };
+		2133BE611A408E7E0091F257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BE601A408E7E0091F257 /* ViewController.swift */; };
+		2133BE661A408E7E0091F257 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2133BE651A408E7E0091F257 /* Images.xcassets */; };
+		2133BE691A408E7E0091F257 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2133BE671A408E7E0091F257 /* LaunchScreen.xib */; };
+		2133BE751A408E7E0091F257 /* alarmgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BE741A408E7E0091F257 /* alarmgetTests.swift */; };
+		2133BEDB1A42769E0091F257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2133BEDA1A42769E0091F257 /* Main.storyboard */; };
+		21DC72021A4818240029B5C3 /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC72011A4818240029B5C3 /* nextViewController.swift */; };
+		21DC72041A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21DC72031A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg */; };
+		21DC72061A4831540029B5C3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DC72051A4831540029B5C3 /* AVFoundation.framework */; };
+		21DC72081A4831B10029B5C3 /* おはよう.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC72071A4831B10029B5C3 /* おはよう.mp3 */; };
+		21DC720A1A4841D80029B5C3 /* オレンジ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC72091A4841D80029B5C3 /* オレンジ.mp3 */; };
+		21DC720C1A4843560029B5C3 /* チェリー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC720B1A4843560029B5C3 /* チェリー.mp3 */; };
+		21DC720E1A4843670029B5C3 /* 空も飛べるはず.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC720D1A4843670029B5C3 /* 空も飛べるはず.mp3 */; };
+		21DC72101A4843780029B5C3 /* 告白.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC720F1A4843780029B5C3 /* 告白.mp3 */; };
+		21DC72121A48438C0029B5C3 /* 等身大のラブソング.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC72111A48438C0029B5C3 /* 等身大のラブソング.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2133BE6F1A408E7E0091F257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2133BE511A408E7E0091F257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2133BE581A408E7E0091F257;
+			remoteInfo = alarmget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2133BE591A408E7E0091F257 /* alarmget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarmget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2133BE5D1A408E7E0091F257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2133BE5E1A408E7E0091F257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2133BE601A408E7E0091F257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2133BE651A408E7E0091F257 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2133BE681A408E7E0091F257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2133BE6E1A408E7E0091F257 /* alarmgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2133BE731A408E7E0091F257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2133BE741A408E7E0091F257 /* alarmgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmgetTests.swift; sourceTree = "<group>"; };
+		2133BEDA1A42769E0091F257 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		21DC72011A4818240029B5C3 /* nextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
+		21DC72031A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014-08-07 21.07.08.jpg"; sourceTree = "<group>"; };
+		21DC72051A4831540029B5C3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		21DC72071A4831B10029B5C3 /* おはよう.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "おはよう.mp3"; path = "../../../Music/おはよう.mp3"; sourceTree = "<group>"; };
+		21DC72091A4841D80029B5C3 /* オレンジ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "オレンジ.mp3"; path = "../../../Music/オレンジ.mp3"; sourceTree = "<group>"; };
+		21DC720B1A4843560029B5C3 /* チェリー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "チェリー.mp3"; path = "../../../Music/チェリー.mp3"; sourceTree = "<group>"; };
+		21DC720D1A4843670029B5C3 /* 空も飛べるはず.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "空も飛べるはず.mp3"; path = "../../../Music/空も飛べるはず.mp3"; sourceTree = "<group>"; };
+		21DC720F1A4843780029B5C3 /* 告白.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "告白.mp3"; path = "../../../Music/告白.mp3"; sourceTree = "<group>"; };
+		21DC72111A48438C0029B5C3 /* 等身大のラブソング.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "等身大のラブソング.mp3"; path = "../../../Music/等身大のラブソング.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2133BE561A408E7E0091F257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC72061A4831540029B5C3 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2133BE6B1A408E7E0091F257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2133BE501A408E7E0091F257 = {
+			isa = PBXGroup;
+			children = (
+				21DC72051A4831540029B5C3 /* AVFoundation.framework */,
+				2133BE5B1A408E7E0091F257 /* alarmget */,
+				2133BE711A408E7E0091F257 /* alarmgetTests */,
+				2133BE5A1A408E7E0091F257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2133BE5A1A408E7E0091F257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2133BE591A408E7E0091F257 /* alarmget.app */,
+				2133BE6E1A408E7E0091F257 /* alarmgetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2133BE5B1A408E7E0091F257 /* alarmget */ = {
+			isa = PBXGroup;
+			children = (
+				21DC72111A48438C0029B5C3 /* 等身大のラブソング.mp3 */,
+				21DC720F1A4843780029B5C3 /* 告白.mp3 */,
+				21DC720D1A4843670029B5C3 /* 空も飛べるはず.mp3 */,
+				21DC720B1A4843560029B5C3 /* チェリー.mp3 */,
+				21DC72091A4841D80029B5C3 /* オレンジ.mp3 */,
+				21DC72071A4831B10029B5C3 /* おはよう.mp3 */,
+				21DC72031A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg */,
+				2133BE5E1A408E7E0091F257 /* AppDelegate.swift */,
+				2133BE601A408E7E0091F257 /* ViewController.swift */,
+				21DC72011A4818240029B5C3 /* nextViewController.swift */,
+				2133BEDA1A42769E0091F257 /* Main.storyboard */,
+				2133BE651A408E7E0091F257 /* Images.xcassets */,
+				2133BE671A408E7E0091F257 /* LaunchScreen.xib */,
+				2133BE5C1A408E7E0091F257 /* Supporting Files */,
+			);
+			path = alarmget;
+			sourceTree = "<group>";
+		};
+		2133BE5C1A408E7E0091F257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2133BE5D1A408E7E0091F257 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2133BE711A408E7E0091F257 /* alarmgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				2133BE741A408E7E0091F257 /* alarmgetTests.swift */,
+				2133BE721A408E7E0091F257 /* Supporting Files */,
+			);
+			path = alarmgetTests;
+			sourceTree = "<group>";
+		};
+		2133BE721A408E7E0091F257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2133BE731A408E7E0091F257 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2133BE581A408E7E0091F257 /* alarmget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2133BE781A408E7E0091F257 /* Build configuration list for PBXNativeTarget "alarmget" */;
+			buildPhases = (
+				2133BE551A408E7E0091F257 /* Sources */,
+				2133BE561A408E7E0091F257 /* Frameworks */,
+				2133BE571A408E7E0091F257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alarmget;
+			productName = alarmget;
+			productReference = 2133BE591A408E7E0091F257 /* alarmget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2133BE6D1A408E7E0091F257 /* alarmgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2133BE7B1A408E7E0091F257 /* Build configuration list for PBXNativeTarget "alarmgetTests" */;
+			buildPhases = (
+				2133BE6A1A408E7E0091F257 /* Sources */,
+				2133BE6B1A408E7E0091F257 /* Frameworks */,
+				2133BE6C1A408E7E0091F257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2133BE701A408E7E0091F257 /* PBXTargetDependency */,
+			);
+			name = alarmgetTests;
+			productName = alarmgetTests;
+			productReference = 2133BE6E1A408E7E0091F257 /* alarmgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2133BE511A408E7E0091F257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "sashida arata";
+				TargetAttributes = {
+					2133BE581A408E7E0091F257 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2133BE6D1A408E7E0091F257 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2133BE581A408E7E0091F257;
+					};
+				};
+			};
+			buildConfigurationList = 2133BE541A408E7E0091F257 /* Build configuration list for PBXProject "alarmget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2133BE501A408E7E0091F257;
+			productRefGroup = 2133BE5A1A408E7E0091F257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2133BE581A408E7E0091F257 /* alarmget */,
+				2133BE6D1A408E7E0091F257 /* alarmgetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2133BE571A408E7E0091F257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC72041A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg in Resources */,
+				21DC72101A4843780029B5C3 /* 告白.mp3 in Resources */,
+				2133BE691A408E7E0091F257 /* LaunchScreen.xib in Resources */,
+				21DC72121A48438C0029B5C3 /* 等身大のラブソング.mp3 in Resources */,
+				21DC720A1A4841D80029B5C3 /* オレンジ.mp3 in Resources */,
+				2133BE661A408E7E0091F257 /* Images.xcassets in Resources */,
+				2133BEDB1A42769E0091F257 /* Main.storyboard in Resources */,
+				21DC720C1A4843560029B5C3 /* チェリー.mp3 in Resources */,
+				21DC72081A4831B10029B5C3 /* おはよう.mp3 in Resources */,
+				21DC720E1A4843670029B5C3 /* 空も飛べるはず.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2133BE6C1A408E7E0091F257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2133BE551A408E7E0091F257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC72021A4818240029B5C3 /* nextViewController.swift in Sources */,
+				2133BE611A408E7E0091F257 /* ViewController.swift in Sources */,
+				2133BE5F1A408E7E0091F257 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2133BE6A1A408E7E0091F257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2133BE751A408E7E0091F257 /* alarmgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2133BE701A408E7E0091F257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2133BE581A408E7E0091F257 /* alarmget */;
+			targetProxy = 2133BE6F1A408E7E0091F257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2133BE671A408E7E0091F257 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2133BE681A408E7E0091F257 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2133BE761A408E7E0091F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2133BE771A408E7E0091F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2133BE791A408E7E0091F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = alarmget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2133BE7A1A408E7E0091F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = alarmget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2133BE7C1A408E7E0091F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = alarmgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alarmget.app/alarmget";
+			};
+			name = Debug;
+		};
+		2133BE7D1A408E7E0091F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = alarmgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alarmget.app/alarmget";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2133BE541A408E7E0091F257 /* Build configuration list for PBXProject "alarmget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2133BE761A408E7E0091F257 /* Debug */,
+				2133BE771A408E7E0091F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2133BE781A408E7E0091F257 /* Build configuration list for PBXNativeTarget "alarmget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2133BE791A408E7E0091F257 /* Debug */,
+				2133BE7A1A408E7E0091F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2133BE7B1A408E7E0091F257 /* Build configuration list for PBXNativeTarget "alarmgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2133BE7C1A408E7E0091F257 /* Debug */,
+				2133BE7D1A408E7E0091F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2133BE511A408E7E0091F257 /* Project object */;
+}
