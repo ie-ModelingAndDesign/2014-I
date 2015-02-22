@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC2B03681A1C741100C0F98B"
-               BuildableName = "modelingtest1.app"
-               BlueprintName = "modelingtest1"
-               ReferencedContainer = "container:modelingtest1.xcodeproj">
+               BlueprintIdentifier = "2133BE581A408E7E0091F257"
+               BuildableName = "alarmget.app"
+               BlueprintName = "alarmget"
+               ReferencedContainer = "container:alarmget.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC2B037D1A1C741100C0F98B"
-               BuildableName = "modelingtest1Tests.xctest"
-               BlueprintName = "modelingtest1Tests"
-               ReferencedContainer = "container:modelingtest1.xcodeproj">
+               BlueprintIdentifier = "2133BE6D1A408E7E0091F257"
+               BuildableName = "alarmgetTests.xctest"
+               BlueprintName = "alarmgetTests"
+               ReferencedContainer = "container:alarmget.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC2B037D1A1C741100C0F98B"
-               BuildableName = "modelingtest1Tests.xctest"
-               BlueprintName = "modelingtest1Tests"
-               ReferencedContainer = "container:modelingtest1.xcodeproj">
+               BlueprintIdentifier = "2133BE6D1A408E7E0091F257"
+               BuildableName = "alarmgetTests.xctest"
+               BlueprintName = "alarmgetTests"
+               ReferencedContainer = "container:alarmget.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC2B03681A1C741100C0F98B"
-            BuildableName = "modelingtest1.app"
-            BlueprintName = "modelingtest1"
-            ReferencedContainer = "container:modelingtest1.xcodeproj">
+            BlueprintIdentifier = "2133BE581A408E7E0091F257"
+            BuildableName = "alarmget.app"
+            BlueprintName = "alarmget"
+            ReferencedContainer = "container:alarmget.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC2B03681A1C741100C0F98B"
-            BuildableName = "modelingtest1.app"
-            BlueprintName = "modelingtest1"
-            ReferencedContainer = "container:modelingtest1.xcodeproj">
+            BlueprintIdentifier = "2133BE581A408E7E0091F257"
+            BuildableName = "alarmget.app"
+            BlueprintName = "alarmget"
+            ReferencedContainer = "container:alarmget.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC2B03681A1C741100C0F98B"
-            BuildableName = "modelingtest1.app"
-            BlueprintName = "modelingtest1"
-            ReferencedContainer = "container:modelingtest1.xcodeproj">
+            BlueprintIdentifier = "2133BE581A408E7E0091F257"
+            BuildableName = "alarmget.app"
+            BlueprintName = "alarmget"
+            ReferencedContainer = "container:alarmget.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

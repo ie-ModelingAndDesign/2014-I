@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>modelingtest1.xcscheme</key>
+		<key>alarmget.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AC2B03681A1C741100C0F98B</key>
+		<key>2133BE581A408E7E0091F257</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC2B037D1A1C741100C0F98B</key>
+		<key>2133BE6D1A408E7E0091F257</key>
 		<dict>
 			<key>primary</key>
 			<true/>

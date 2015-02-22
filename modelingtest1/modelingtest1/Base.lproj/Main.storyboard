@@ -15,6 +15,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3AV-rC-VBE">
+                                <rect key="frame" x="40" y="550" width="294" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oU9-OW-AZP"/>
+                                    <segue destination="9bW-Lc-iwf" kind="presentation" identifier="PointSegueHome" id="ByW-1Y-p8f"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7mi-Pe-Det">
+                                <rect key="frame" x="16" y="173" width="343" height="369"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui0-Ae-2fc">
+                                <rect key="frame" x="16" y="236" width="544" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="home" id="8eY-Uh-jeS">
@@ -25,10 +46,122 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="MyImageView" destination="7mi-Pe-Det" id="HRS-Me-xWx"/>
+                        <outlet property="Zatugaku" destination="Ui0-Ae-2fc" id="Bj3-7g-gMs"/>
+                        <outlet property="myButton" destination="3AV-rC-VBE" id="qor-uj-fvO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="952" y="136"/>
+            <point key="canvasLocation" x="214" y="129"/>
+        </scene>
+        <!--Set Time-->
+        <scene sceneID="GoD-Cf-n5p">
+            <objects>
+                <viewController id="9bW-Lc-iwf" customClass="SetTime" customModule="modelingtest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6zC-5F-p8L"/>
+                        <viewControllerLayoutGuide type="bottom" id="m5f-5K-B4U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lHm-BJ-Ly2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="fZ6-fL-edr">
+                                <rect key="frame" x="-28" y="89" width="419" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="446115736.42806703">
+                                    <!--2015-02-20 09:02:16 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="onDidChangeDatePicker:" destination="9bW-Lc-iwf" eventType="valueChanged" id="sDn-v2-0xo"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1U-iW-tmq">
+                                <rect key="frame" x="27" y="28" width="308" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrR-na-C2e">
+                                <rect key="frame" x="-2" y="402" width="366" height="30"/>
+                                <state key="normal" title="この時間で設定">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SetButton:" destination="9bW-Lc-iwf" eventType="touchUpInside" id="bNM-qK-pc4"/>
+                                    <segue destination="lLU-3A-frn" kind="presentation" identifier="TimeSegue" id="WLA-1X-SZ1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="MyDatePicker" destination="fZ6-fL-edr" id="CzN-hs-8FO"/>
+                        <outlet property="SetButton" destination="hrR-na-C2e" id="E7w-R0-66f"/>
+                        <outlet property="TimeNow" destination="n1U-iW-tmq" id="fCK-3Z-dHg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vh9-p8-MNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="214" y="860"/>
+        </scene>
+        <!--Sub Set Time-->
+        <scene sceneID="Q4p-LT-5uu">
+            <objects>
+                <viewController id="lLU-3A-frn" customClass="subSetTime" customModule="modelingtest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VEP-eK-z9C"/>
+                        <viewControllerLayoutGuide type="bottom" id="bky-BN-3hE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ytr-OZ-GJo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeM-5B-ybH">
+                                <rect key="frame" x="39" y="550" width="307" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ukl-mX-Lqi" kind="unwind" unwindAction="returnMenu:" id="mz7-2l-qtd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="どのボクが良いかな・・・？" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLe-Cn-EcD">
+                                <rect key="frame" x="83" y="313" width="221" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoG-mh-UU4">
+                                <rect key="frame" x="39" y="512" width="307" height="30"/>
+                                <state key="normal" title="設定する">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickButton:" destination="lLU-3A-frn" eventType="touchUpInside" id="4M6-fW-5Ct"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="TimeSegueHome" id="cNR-Gn-8GN"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zFL-BE-bVO">
+                                <rect key="frame" x="-68" y="342" width="521" height="162"/>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TMp-Ln-UUL">
+                                <rect key="frame" x="28" y="20" width="318" height="314"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="BackButton" destination="jeM-5B-ybH" id="wBc-3v-hzx"/>
+                        <outlet property="myimageview" destination="TMp-Ln-UUL" id="emy-Jf-kMO"/>
+                        <outlet property="mypickerView" destination="zFL-BE-bVO" id="VfV-IX-VdO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vi5-0D-tTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ukl-mX-Lqi" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="214" y="1724"/>
         </scene>
         <!--Tasks-->
         <scene sceneID="uaV-Ut-v2M">
@@ -69,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="meP-sp-ttZ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2370" y="-275"/>
+            <point key="canvasLocation" x="1794" y="-191"/>
         </scene>
         <!--Add New-->
         <scene sceneID="qUX-E2-ftM">
@@ -136,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crc-rN-H6b" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2378" y="635"/>
+            <point key="canvasLocation" x="1799" y="468"/>
         </scene>
         <!--todoscreen-->
         <scene sceneID="Ben-ye-tzs">
@@ -156,7 +289,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7o-gE-uQk" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1659" y="196"/>
+            <point key="canvasLocation" x="1058" y="231"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aSy-DA-Dmg">
@@ -181,4 +314,7 @@
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="cNR-Gn-8GN"/>
+    </inferredMetricsTieBreakers>
 </document>

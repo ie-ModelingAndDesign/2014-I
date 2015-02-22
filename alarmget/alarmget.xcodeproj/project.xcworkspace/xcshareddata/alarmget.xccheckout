@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>CB785CE5-F18B-4171-ABE6-EEE59C34ECB7</string>
+	<string>72D41AC3-4745-4B37-8A6D-FB88B1EF4D77</string>
 	<key>IDESourceControlProjectName</key>
-	<string>modelingtest1</string>
+	<string>alarmget</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F09806480E585859AB5BA0FFC83D93326B5B178C</key>
 		<string>https://github.com/ie-ModelingAndDesign/2014-I.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>modelingtest1/modelingtest1.xcodeproj</string>
+	<string>alarmget/alarmget.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F09806480E585859AB5BA0FFC83D93326B5B178C</key>

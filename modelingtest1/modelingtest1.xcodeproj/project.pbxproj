@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DBB04EE1A98C5AA0041B448 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04EC1A98C5AA0041B448 /* img.png */; };
+		2DBB04F11A98C6680041B448 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04F01A98C6680041B448 /* img2.png */; };
+		2DBB04F51A99EBE40041B448 /* chiida1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04F21A99EBE40041B448 /* chiida1.mp3 */; };
+		2DBB04F61A99EBE40041B448 /* chiida2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04F31A99EBE40041B448 /* chiida2.mp3 */; };
+		2DBB04F71A99EBE40041B448 /* chiida3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04F41A99EBE40041B448 /* chiida3.mp3 */; };
+		2DBB04FD1A9A05730041B448 /* まろ1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04F81A9A05730041B448 /* まろ1.mp3 */; };
+		2DBB04FE1A9A05730041B448 /* まろ2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04F91A9A05730041B448 /* まろ2.mp3 */; };
+		2DBB04FF1A9A05730041B448 /* まろ3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04FA1A9A05730041B448 /* まろ3.mp3 */; };
+		2DBB05001A9A05730041B448 /* まろ4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04FB1A9A05730041B448 /* まろ4.mp3 */; };
+		2DBB05011A9A05730041B448 /* まろ5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB04FC1A9A05730041B448 /* まろ5.mp3 */; };
+		2DBB05031A9A0A860041B448 /* apple_mac_os_x_blue-wallpaper-768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB05021A9A0A860041B448 /* apple_mac_os_x_blue-wallpaper-768x1024.png */; };
+		2DC9C79B1A9722BB00CEC741 /* SetTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9C79A1A9722BB00CEC741 /* SetTime.swift */; };
+		2DC9C79D1A97370D00CEC741 /* subSetTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9C79C1A97370D00CEC741 /* subSetTime.swift */; };
 		AC2B036F1A1C741100C0F98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B036E1A1C741100C0F98B /* AppDelegate.swift */; };
 		AC2B03711A1C741100C0F98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B03701A1C741100C0F98B /* ViewController.swift */; };
 		AC2B03741A1C741100C0F98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2B03721A1C741100C0F98B /* Main.storyboard */; };
@@ -32,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DBB04EC1A98C5AA0041B448 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		2DBB04F01A98C6680041B448 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
+		2DBB04F21A99EBE40041B448 /* chiida1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chiida1.mp3; sourceTree = "<group>"; };
+		2DBB04F31A99EBE40041B448 /* chiida2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chiida2.mp3; sourceTree = "<group>"; };
+		2DBB04F41A99EBE40041B448 /* chiida3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chiida3.mp3; sourceTree = "<group>"; };
+		2DBB04F81A9A05730041B448 /* まろ1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "まろ1.mp3"; sourceTree = "<group>"; };
+		2DBB04F91A9A05730041B448 /* まろ2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "まろ2.mp3"; sourceTree = "<group>"; };
+		2DBB04FA1A9A05730041B448 /* まろ3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "まろ3.mp3"; sourceTree = "<group>"; };
+		2DBB04FB1A9A05730041B448 /* まろ4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "まろ4.mp3"; sourceTree = "<group>"; };
+		2DBB04FC1A9A05730041B448 /* まろ5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "まろ5.mp3"; sourceTree = "<group>"; };
+		2DBB05021A9A0A860041B448 /* apple_mac_os_x_blue-wallpaper-768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple_mac_os_x_blue-wallpaper-768x1024.png"; sourceTree = "<group>"; };
+		2DC9C79A1A9722BB00CEC741 /* SetTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTime.swift; sourceTree = "<group>"; };
+		2DC9C79C1A97370D00CEC741 /* subSetTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subSetTime.swift; sourceTree = "<group>"; };
 		AC2B03691A1C741100C0F98B /* modelingtest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modelingtest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2B036D1A1C741100C0F98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2B036E1A1C741100C0F98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +116,20 @@
 			isa = PBXGroup;
 			children = (
 				AC2B036E1A1C741100C0F98B /* AppDelegate.swift */,
+				2DBB04EC1A98C5AA0041B448 /* img.png */,
+				2DBB04F01A98C6680041B448 /* img2.png */,
+				2DBB04F21A99EBE40041B448 /* chiida1.mp3 */,
+				2DBB04F31A99EBE40041B448 /* chiida2.mp3 */,
+				2DBB04F81A9A05730041B448 /* まろ1.mp3 */,
+				2DBB04F91A9A05730041B448 /* まろ2.mp3 */,
+				2DBB04FA1A9A05730041B448 /* まろ3.mp3 */,
+				2DBB04FB1A9A05730041B448 /* まろ4.mp3 */,
+				2DBB04FC1A9A05730041B448 /* まろ5.mp3 */,
+				2DBB04F41A99EBE40041B448 /* chiida3.mp3 */,
+				2DBB05021A9A0A860041B448 /* apple_mac_os_x_blue-wallpaper-768x1024.png */,
 				AC2B03701A1C741100C0F98B /* ViewController.swift */,
+				2DC9C79A1A9722BB00CEC741 /* SetTime.swift */,
+				2DC9C79C1A97370D00CEC741 /* subSetTime.swift */,
 				AC2B03721A1C741100C0F98B /* Main.storyboard */,
 				AC2B03751A1C741100C0F98B /* Images.xcassets */,
 				AC2B03771A1C741100C0F98B /* LaunchScreen.xib */,
@@ -181,7 +220,7 @@
 						CreatedOnToolsVersion = 6.1;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -215,9 +254,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBB05001A9A05730041B448 /* まろ4.mp3 in Resources */,
+				2DBB04F51A99EBE40041B448 /* chiida1.mp3 in Resources */,
 				AC2B03741A1C741100C0F98B /* Main.storyboard in Resources */,
 				AC2B03791A1C741100C0F98B /* LaunchScreen.xib in Resources */,
+				2DBB04FD1A9A05730041B448 /* まろ1.mp3 in Resources */,
+				2DBB05011A9A05730041B448 /* まろ5.mp3 in Resources */,
+				2DBB05031A9A0A860041B448 /* apple_mac_os_x_blue-wallpaper-768x1024.png in Resources */,
+				2DBB04FE1A9A05730041B448 /* まろ2.mp3 in Resources */,
+				2DBB04F61A99EBE40041B448 /* chiida2.mp3 in Resources */,
+				2DBB04F11A98C6680041B448 /* img2.png in Resources */,
+				2DBB04FF1A9A05730041B448 /* まろ3.mp3 in Resources */,
 				AC2B03761A1C741100C0F98B /* Images.xcassets in Resources */,
+				2DBB04F71A99EBE40041B448 /* chiida3.mp3 in Resources */,
+				2DBB04EE1A98C5AA0041B448 /* img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,11 +287,13 @@
 			files = (
 				AC59490F1A41810600836B42 /* SecondViewController.swift in Sources */,
 				AC2B03711A1C741100C0F98B /* ViewController.swift in Sources */,
+				2DC9C79B1A9722BB00CEC741 /* SetTime.swift in Sources */,
 				AC5949131A41895B00836B42 /* TaskManager.swift in Sources */,
 				AC69D0B61A2639B3006F78A3 /* DayView.swift in Sources */,
 				AC2B036F1A1C741100C0F98B /* AppDelegate.swift in Sources */,
 				AC5949111A4181BB00836B42 /* ThirdViewComtroller.swift in Sources */,
 				ACF3464E1A38CCA4004BC6BB /* CalenderView.swift in Sources */,
+				2DC9C79D1A97370D00CEC741 /* subSetTime.swift in Sources */,
 				ACF3464C1A38CC40004BC6BB /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

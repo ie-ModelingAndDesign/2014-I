@@ -13,15 +13,14 @@
 		2133BE691A408E7E0091F257 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2133BE671A408E7E0091F257 /* LaunchScreen.xib */; };
 		2133BE751A408E7E0091F257 /* alarmgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BE741A408E7E0091F257 /* alarmgetTests.swift */; };
 		2133BEDB1A42769E0091F257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2133BEDA1A42769E0091F257 /* Main.storyboard */; };
-		21DC72021A4818240029B5C3 /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC72011A4818240029B5C3 /* nextViewController.swift */; };
 		21DC72041A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21DC72031A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg */; };
 		21DC72061A4831540029B5C3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DC72051A4831540029B5C3 /* AVFoundation.framework */; };
-		21DC72081A4831B10029B5C3 /* おはよう.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC72071A4831B10029B5C3 /* おはよう.mp3 */; };
-		21DC720A1A4841D80029B5C3 /* オレンジ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC72091A4841D80029B5C3 /* オレンジ.mp3 */; };
-		21DC720C1A4843560029B5C3 /* チェリー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC720B1A4843560029B5C3 /* チェリー.mp3 */; };
-		21DC720E1A4843670029B5C3 /* 空も飛べるはず.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC720D1A4843670029B5C3 /* 空も飛べるはず.mp3 */; };
-		21DC72101A4843780029B5C3 /* 告白.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC720F1A4843780029B5C3 /* 告白.mp3 */; };
-		21DC72121A48438C0029B5C3 /* 等身大のラブソング.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21DC72111A48438C0029B5C3 /* 等身大のラブソング.mp3 */; };
+		AC056D961A5DB1D9001981B0 /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC056D951A5DB1D9001981B0 /* nextViewController.swift */; };
+		AC056D9C1A5DB20C001981B0 /* オレンジ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC056D971A5DB20C001981B0 /* オレンジ.mp3 */; };
+		AC056D9D1A5DB20C001981B0 /* チェリー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC056D981A5DB20C001981B0 /* チェリー.mp3 */; };
+		AC056D9E1A5DB20C001981B0 /* ロビンソン.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC056D991A5DB20C001981B0 /* ロビンソン.mp3 */; };
+		AC056D9F1A5DB20C001981B0 /* 空も飛べるはず.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC056D9A1A5DB20C001981B0 /* 空も飛べるはず.mp3 */; };
+		AC056DA01A5DB20C001981B0 /* 等身大のラブソング.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC056D9B1A5DB20C001981B0 /* 等身大のラブソング.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,15 +44,14 @@
 		2133BE731A408E7E0091F257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2133BE741A408E7E0091F257 /* alarmgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmgetTests.swift; sourceTree = "<group>"; };
 		2133BEDA1A42769E0091F257 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		21DC72011A4818240029B5C3 /* nextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
 		21DC72031A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014-08-07 21.07.08.jpg"; sourceTree = "<group>"; };
 		21DC72051A4831540029B5C3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		21DC72071A4831B10029B5C3 /* おはよう.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "おはよう.mp3"; path = "../../../Music/おはよう.mp3"; sourceTree = "<group>"; };
-		21DC72091A4841D80029B5C3 /* オレンジ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "オレンジ.mp3"; path = "../../../Music/オレンジ.mp3"; sourceTree = "<group>"; };
-		21DC720B1A4843560029B5C3 /* チェリー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "チェリー.mp3"; path = "../../../Music/チェリー.mp3"; sourceTree = "<group>"; };
-		21DC720D1A4843670029B5C3 /* 空も飛べるはず.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "空も飛べるはず.mp3"; path = "../../../Music/空も飛べるはず.mp3"; sourceTree = "<group>"; };
-		21DC720F1A4843780029B5C3 /* 告白.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "告白.mp3"; path = "../../../Music/告白.mp3"; sourceTree = "<group>"; };
-		21DC72111A48438C0029B5C3 /* 等身大のラブソング.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "等身大のラブソング.mp3"; path = "../../../Music/等身大のラブソング.mp3"; sourceTree = "<group>"; };
+		AC056D951A5DB1D9001981B0 /* nextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
+		AC056D971A5DB20C001981B0 /* オレンジ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "オレンジ.mp3"; sourceTree = "<group>"; };
+		AC056D981A5DB20C001981B0 /* チェリー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "チェリー.mp3"; sourceTree = "<group>"; };
+		AC056D991A5DB20C001981B0 /* ロビンソン.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ロビンソン.mp3"; sourceTree = "<group>"; };
+		AC056D9A1A5DB20C001981B0 /* 空も飛べるはず.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "空も飛べるはず.mp3"; sourceTree = "<group>"; };
+		AC056D9B1A5DB20C001981B0 /* 等身大のラブソング.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "等身大のラブソング.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,16 +95,15 @@
 		2133BE5B1A408E7E0091F257 /* alarmget */ = {
 			isa = PBXGroup;
 			children = (
-				21DC72111A48438C0029B5C3 /* 等身大のラブソング.mp3 */,
-				21DC720F1A4843780029B5C3 /* 告白.mp3 */,
-				21DC720D1A4843670029B5C3 /* 空も飛べるはず.mp3 */,
-				21DC720B1A4843560029B5C3 /* チェリー.mp3 */,
-				21DC72091A4841D80029B5C3 /* オレンジ.mp3 */,
-				21DC72071A4831B10029B5C3 /* おはよう.mp3 */,
+				AC056D971A5DB20C001981B0 /* オレンジ.mp3 */,
+				AC056D981A5DB20C001981B0 /* チェリー.mp3 */,
+				AC056D991A5DB20C001981B0 /* ロビンソン.mp3 */,
+				AC056D9A1A5DB20C001981B0 /* 空も飛べるはず.mp3 */,
+				AC056D9B1A5DB20C001981B0 /* 等身大のラブソング.mp3 */,
 				21DC72031A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg */,
 				2133BE5E1A408E7E0091F257 /* AppDelegate.swift */,
 				2133BE601A408E7E0091F257 /* ViewController.swift */,
-				21DC72011A4818240029B5C3 /* nextViewController.swift */,
+				AC056D951A5DB1D9001981B0 /* nextViewController.swift */,
 				2133BEDA1A42769E0091F257 /* Main.storyboard */,
 				2133BE651A408E7E0091F257 /* Images.xcassets */,
 				2133BE671A408E7E0091F257 /* LaunchScreen.xib */,
@@ -221,15 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				21DC72041A482AED0029B5C3 /* 2014-08-07 21.07.08.jpg in Resources */,
-				21DC72101A4843780029B5C3 /* 告白.mp3 in Resources */,
 				2133BE691A408E7E0091F257 /* LaunchScreen.xib in Resources */,
-				21DC72121A48438C0029B5C3 /* 等身大のラブソング.mp3 in Resources */,
-				21DC720A1A4841D80029B5C3 /* オレンジ.mp3 in Resources */,
+				AC056D9D1A5DB20C001981B0 /* チェリー.mp3 in Resources */,
+				AC056D9E1A5DB20C001981B0 /* ロビンソン.mp3 in Resources */,
 				2133BE661A408E7E0091F257 /* Images.xcassets in Resources */,
+				AC056D9C1A5DB20C001981B0 /* オレンジ.mp3 in Resources */,
+				AC056DA01A5DB20C001981B0 /* 等身大のラブソング.mp3 in Resources */,
 				2133BEDB1A42769E0091F257 /* Main.storyboard in Resources */,
-				21DC720C1A4843560029B5C3 /* チェリー.mp3 in Resources */,
-				21DC72081A4831B10029B5C3 /* おはよう.mp3 in Resources */,
-				21DC720E1A4843670029B5C3 /* 空も飛べるはず.mp3 in Resources */,
+				AC056D9F1A5DB20C001981B0 /* 空も飛べるはず.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21DC72021A4818240029B5C3 /* nextViewController.swift in Sources */,
+				AC056D961A5DB1D9001981B0 /* nextViewController.swift in Sources */,
 				2133BE611A408E7E0091F257 /* ViewController.swift in Sources */,
 				2133BE5F1A408E7E0091F257 /* AppDelegate.swift in Sources */,
 			);
